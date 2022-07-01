@@ -1,0 +1,53 @@
+{
+  "auth": {
+    "valid": {
+      "token": "e7694a3a-f6be-404b-a27c-b411a6ed9ea9"
+    },
+    "invalid":{
+      "message": "Wrong login or password."
+    }
+  },
+  "users": {
+    "create": {
+      "id": "aagdndbc",
+      "amount": 1000
+    },
+    "getAll": [
+      {
+        "id": "aagdndbc",
+        "amount": 1000
+      },
+      {
+        "id": "aagdndbc",
+        "amount": 1000
+      }
+    ],
+    "delete": {
+      "message": "User deleted."
+    }
+    },
+  "transactions": {
+    "create": {
+      "from": "ddffffffff",
+      "to": "fffffffsdcds",
+      "amount": 100
+    },
+    "sender error": {
+      "message": "Sender not found."
+    },
+    "getAll": [
+      {
+        "id": "fffff",
+        "from": "aagdndbc",
+        "to": "ffffff",
+        "amount": 1000
+      },
+      {
+        "id": "ffff",
+        "from": "aagdndbc",
+        "to": "fhfhfggdf",
+        "amount": 1000
+      }
+    ]
+  }
+  }
