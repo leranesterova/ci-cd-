@@ -23,12 +23,12 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
  
- - name: Install dependencies
- run : npm i
+    - name: Install dependencies
+      run : npm i
     - name: Run API tests
-    env:
-    BASE_URL: ${{secrets.BASE_URL}}
-    LOGIN: ${{secrets.LOGIN}}
-    PASSWORD: ${{secrets.PASSWORD}}
-    PORT: ${{secrets.PORT}}
-run: npm test
+      env:
+        BASE_URL: ${{secrets.BASE_URL}}
+        LOGIN: ${{secrets.LOGIN}}
+        PASSWORD: ${{secrets.PASSWORD}}
+        PORT: ${{secrets.PORT}}
+      run: npm test
